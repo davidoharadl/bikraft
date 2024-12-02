@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--c12);
+  align-items: center;
+}
+
+.header-menu {
+}
+
+.header-menu-item-link {
+  color: var(--w);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  background: #000;
+}

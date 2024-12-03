@@ -1,4 +1,4 @@
-@import "./reset.css";
-@import "./utilitarios.css";
 @import "./global.css";
+@import "./utilitarios.css";
 @import "./header.css";
+@import "./intro.css";

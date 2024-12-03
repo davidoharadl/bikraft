@@ -1,3 +1,7 @@
+.header-bg {
+  background-color: var(--c12);
+}
+
 .header {
   max-width: 1200px;
   margin: 0 auto;
@@ -56,6 +60,9 @@
   }
   .header-menu a:hover {
     background-color: #2e2e2e;
+  }
+  .header-menu a::after {
+    display: none;
   }
 }
 

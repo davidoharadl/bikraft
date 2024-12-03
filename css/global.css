@@ -1,4 +1,110 @@
 :root {
   --c12: #000;
+  --c5: #b2b2b2;
   --w: #fff;
+  --p1: #ffbb00;
+  --p2: #e4a30b;
+  --p3: #a66f00;
+  --p4: #664400;
+  --p5: #332200;
+}
+
+body,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center right;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 72px;
+  font-size: 4rem;
+}
+
+@media (max-width: 900px) {
+  .titulo {
+    line-height: 54px;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .titulo {
+    line-height: 48px;
+    font-size: 2.5rem;
+  }
+}
+
+.p1 {
+  color: var(--p1);
+}
+
+.texto-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 1.5rem;
+  color: var(--c5);
+}
+
+@media (max-width: 900px) {
+  .texto-1 {
+    line-height: 28px;
+    font-size: 1.25rem;
+    padding-bottom: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .texto-1 {
+    line-height: 24px;
+    font-size: 1.1rem;
+    padding-bottom: 14px;
+  }
+}
+
+.btn-1 {
+  padding: 1rem 2rem;
+  background-color: var(--p1);
+  color: var(--p5);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .btn-1 {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .btn-1 {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
 }

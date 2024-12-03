@@ -1,0 +1,87 @@
+.escolha-bg {
+  margin-bottom: 7.5rem;
+}
+
+.escolha-bg .titulo {
+  margin-bottom: 2.5rem;
+}
+
+.escolha {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 900px) {
+  .escolha {
+    grid-template-columns: 1fr;
+  }
+}
+
+.galeria {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  padding: 0 4.3rem;
+}
+@media (max-width: 900px) {
+  .galeria {
+    padding: 0 1.25rem;
+  }
+}
+
+.galeria-item img {
+  border-radius: 4px;
+}
+
+.galeria-item h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--c11);
+  margin-bottom: 0.5rem;
+  position: relative;
+  margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .galeria-item h3 {
+    font-size: 1.65rem;
+    margin-bottom: 0rem;
+  }
+}
+
+.galeria-item h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+@media (max-width: 900px) {
+  .galeria-item h3::before {
+    width: 10px;
+    height: 6px;
+    top: 17px;
+    left: -15px;
+  }
+}
+
+.galeria-item span {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--c8);
+}
+
+@media (max-width: 900px) {
+  .galeria-item span {
+    font-size: 1.1rem;
+  }
+}

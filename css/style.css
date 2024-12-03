@@ -1,5 +1,7 @@
-@import "./global.css";
-@import "./utilitarios.css";
-@import "./header.css";
-@import "./intro.css";
-@import "./escolha.css";
+@import "./utility/cores.css";
+@import "./utility/tipografia.css";
+@import "./global/global.css";
+@import "./utility/componentes.css";
+@import "./global/header.css";
+@import "./home/intro.css";
+@import "./home/escolha.css";

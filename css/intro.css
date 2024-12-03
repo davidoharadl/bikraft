@@ -1,16 +1,24 @@
 .intro-bg {
   background-color: var(--c12);
   color: var(--w);
+  box-shadow: inset 0 -120px #fff;
 }
+
 .intro {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 88px;
-  padding: 20px;
+  align-items: end;
+  gap: 0px 88px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-bottom: 7.5rem; */
+}
+
+.intro article {
+  padding-bottom: 200px;
 }
 
 @media (max-width: 900px) {
@@ -18,4 +26,10 @@
     grid-template-columns: 1fr;
     gap: 60px;
   }
+}
+
+.intro-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
 }

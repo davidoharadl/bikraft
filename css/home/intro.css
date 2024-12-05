@@ -23,7 +23,6 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: end;
   gap: 0px 88px;
   padding-left: 20px;
   padding-right: 20px;
@@ -43,6 +42,7 @@
 
 .intro article {
   padding-bottom: 200px;
+  align-self: end;
 }
 @media (max-width: 900px) {
   .intro article {

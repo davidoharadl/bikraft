@@ -25,5 +25,17 @@ img {
   height: auto;
   display: block;
   object-fit: cover;
-  object-position: center right;
+}
+
+.max-w-1200 {
+  max-width: 1200px;
+}
+
+.m0-auto {
+  margin: 0 auto;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

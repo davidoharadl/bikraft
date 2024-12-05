@@ -20,6 +20,10 @@
   }
 }
 
+.escolha .titulo {
+  color: var(--cor-11);
+}
+
 .galeria {
   display: grid;
   gap: 2.5rem;

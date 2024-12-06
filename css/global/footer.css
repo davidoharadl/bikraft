@@ -1,0 +1,87 @@
+.footer-bg {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cor-12);
+  color: var(--cor-5);
+  padding-top: 60px;
+  padding-bottom: 32px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.footer {
+  display: grid;
+  gap: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 1.5%;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+}
+@media (max-width: 700px) {
+  .footer-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .footer-main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    font-size: 1rem;
+  }
+}
+
+.footer-contatos {
+  display: grid;
+  gap: 2rem;
+}
+
+.footer-contatos-1 {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer-contatos-2 {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer-sociais {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-titulo {
+  font-size: 1.5rem;
+  color: var(--cor-0);
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .footer-titulo {
+    font-size: 1.35rem;
+  }
+}
+
+.footer-informacoes {
+  display: grid;
+  gap: 2rem;
+}
+
+.footer-links {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  display: inline-block;
+}
+
+.rodape p {
+  color: var(--cor-6);
+}
+@media (max-width: 500px) {
+  .rodape p {
+    font-size: .85rem;
+  }
+}

@@ -49,17 +49,17 @@
 
 /* BTN */
 .btn-1 {
-  padding: 1rem 2rem;
-  background: var(--bgc-btn);
-  color: var(--p5);
+  display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
-  border-radius: 0.25rem;
-  display: inline-block;
-  transition: 0.3s;
-  box-shadow: var(--shadow-btn);
   text-transform: uppercase;
+  border-radius: 0.25rem;
+  background: var(--bgc-btn);
+  color: var(--p5);
+  padding: 1rem 2rem;
+  box-shadow: var(--shadow-btn);
+  transition: 0.3s;
 }
 
 .btn-1:hover {
@@ -77,4 +77,14 @@
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
+}
+
+.btn-1.dark {
+  background: var(--cor-10);
+  color: var(--cor-4);
+  transition: 0.3s;
+}
+
+.btn-1.dark:hover {
+  background: var(--cor-11);
 }

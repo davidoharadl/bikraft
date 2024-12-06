@@ -1,0 +1,26 @@
+.parceiros {
+  padding: 2rem;
+}
+.parceiros .titulo {
+  color: var(--cor-11);
+  margin-bottom: 106px;
+}
+.paceiros-galeria {
+  display: flex;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 92px 202px;
+}
+@media (max-width: 1000px) {
+  .paceiros-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .paceiros-galeria {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
+/* 350x140 */
